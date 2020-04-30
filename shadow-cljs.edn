@@ -5,7 +5,10 @@
   "src/test"]
 
  :dependencies
- []
-
+ [[reagent "1.0.0-alpha1"]]
+ 
+ :dev-http {8080 "public"}
  :builds
- {}}
+ {:app
+  {:target :browser
+   :modules {:main {:init-fn ekspono.project.app/init}}}}}
