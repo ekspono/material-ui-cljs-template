@@ -14,3 +14,6 @@
 
 (defn init []
   (mount-app-element))
+
+(defn ^:dev/after-load start []
+  (mount-app-element))

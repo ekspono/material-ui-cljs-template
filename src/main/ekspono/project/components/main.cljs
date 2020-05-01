@@ -30,7 +30,7 @@
       [:> mui-icons/Menu]]
      [:> mui/Typography {:variant "h6" :class-name (.-title classes)
                          :style {:flex-grow 1}}
-      "ekspono - project"]
+      "ekspono - project!"]
      [:> mui/Button {:color "inherit"}
       "Login"]]]])
 
