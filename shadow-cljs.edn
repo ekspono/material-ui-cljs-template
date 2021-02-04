@@ -1,14 +1,16 @@
-;; shadow-cljs configuration
 {:source-paths
  ["src/dev"
   "src/main"
   "src/test"]
 
  :dependencies
- [[reagent "1.0.0-alpha1"]]
+ [[reagent "0.8.1"]]
  
- :dev-http {8080 "public"}
  :builds
  {:app
   {:target :browser
-   :modules {:main {:init-fn ekspono.project.app/init}}}}}
+   :modules {:main {:init-fn ekspono.project.app/init}}
+   :devtools
+   {:http-root "public"
+    :http-port 9095
+    :loader-mode :eval}}}}
