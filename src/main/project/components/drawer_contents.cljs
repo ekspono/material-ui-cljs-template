@@ -1,4 +1,4 @@
-(ns ekspono.project.components.drawer-contents
+(ns project.components.drawer-contents
   (:require [reagent.core :as r]
             [reagent.dom :as rdom]
             [goog.object :as gobj]

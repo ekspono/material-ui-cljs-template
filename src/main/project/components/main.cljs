@@ -1,4 +1,4 @@
-(ns ekspono.project.components.main
+(ns project.components.main
   (:require [reagent.core :as r]
             [reagent.dom :as rdom]
             [goog.object :as gobj]
@@ -6,7 +6,7 @@
             ["@material-ui/core/styles" :refer [withStyles makeStyles createMuiTheme]]
             ["@material-ui/icons" :as mui-icons]
             ["@material-ui/core/colors" :as mui-colors]
-            [ekspono.project.components.drawer-contents :refer [drawer-contents]]))
+            [project.components.drawer-contents :refer [drawer-contents]]))
 
 ;; Example of how to make Material UI components interact with reagent state
 (def state (r/atom {:drawer-active false}))

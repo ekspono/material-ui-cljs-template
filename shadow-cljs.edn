@@ -9,7 +9,7 @@
  :builds
  {:app
   {:target :browser
-   :modules {:main {:init-fn ekspono.project.app/init}}
+   :modules {:main {:init-fn project.app/init}}
    :devtools
    {:http-root "public"
     :http-port 9095

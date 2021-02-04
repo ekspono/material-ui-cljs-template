@@ -1,6 +1,6 @@
-(ns ekspono.project.app
+(ns project.app
   (:require [reagent.dom :as rdom]
-            [ekspono.project.components.main :refer [main]]))
+            [project.components.main :refer [main]]))
 
 (set! *warn-on-infer* true)
 
