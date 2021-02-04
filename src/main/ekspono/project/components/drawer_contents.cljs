@@ -7,8 +7,6 @@
             ["@material-ui/icons" :as mui-icons]
             ["@material-ui/core/colors" :as mui-colors]))
 
-;; TODO: Abstract away the rituals around styling a component
-
 (def drawer-styles (withStyles (clj->js {:list {:width 250}
                                          :full-list {:width "auto"}})))
 

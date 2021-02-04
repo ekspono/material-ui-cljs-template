@@ -6,7 +6,7 @@ A minimal starter template for building cljs apps using:
 * reagent
 * shadow-cljs
 
-## Purpose
+## Use case
 
 material-ui can be useful to quickly prototype usable apps where custom CSS and pixel perfection is not a priority.
 
