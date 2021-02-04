@@ -1,3 +1,3 @@
 #!/bin/bash
 
-npx shadow-cljs compile frontend
+npx shadow-cljs compile app
