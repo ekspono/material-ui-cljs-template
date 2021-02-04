@@ -2,9 +2,9 @@
 
 A minimal starter template for building cljs apps using: 
 
-* material-ui
-* reagent
-* shadow-cljs
+* [material-ui](https://material-ui.com/)
+* [reagent](https://github.com/reagent-project/reagent)
+* [shadow-cljs](https://github.com/thheller/shadow-cljs)
 
 ## Use case
 
